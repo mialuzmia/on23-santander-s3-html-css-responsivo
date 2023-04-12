@@ -1,0 +1,155 @@
+body{
+    background-color: #fc626f; 
+    margin: 0;
+    
+}
+#menu{
+    list-style-type: none;
+    padding: 0;
+    background-color: #ffd249;
+    margin: 0;
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    transition: background .4s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#menu li a:hover{
+    background-color: #5fc6fc;
+    
+}
+nav{
+    margin-bottom: 20px;
+}
+
+#corpo{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    width: 100%;  
+}
+#campo-principal{
+    background-color: white;
+    border-radius: 10px; 
+    padding: 10px;
+    margin: 10px; 
+    width: 90%; 
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.397);
+}
+
+#div-pai-titulo{
+    display: flex;
+    justify-content: center;
+}
+#foto-titulo{
+    width: 300px;  
+    padding-right: 20px;
+    margin-top: 20px;  
+}
+
+#campo-titulo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+
+@font-face {
+    font-family: "crewniverse";
+    src: url(crewniverse_font.otf);
+}
+#campo-titulo h1{
+    padding-left: 20px;
+    font-size: 2.3rem;
+    font-family: crewniverse;
+    color: #ffd249;
+   
+}
+#campo-titulo p{
+    padding-left: 20px;
+    font-size: 1.3rem;
+    
+    font-family: crewniverse;
+    color: #ffd249;
+}
+hr{
+    border-style: dotted none none none;
+    border-width: 5px; 
+    color: gray;
+    width: 20%; 
+    padding: 5px;
+}
+p{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    font-size: 16px;
+}
+#texto{
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    padding-top: 60px;
+    
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: start;
+    font-size: 19px;
+
+}
+.gif{
+    width: 60%;
+    padding: 15px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+@media (max-width: 560px) {
+    #campo-titulo{
+        flex-direction: column;
+    }
+    #campo-titulo h1{
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 0;
+    }
+    #campo-titulo p{
+        text-align: center; 
+        font-size: 1rem;
+        padding: 0;
+    } 
+    #foto-titulo{
+        width: 50%;
+        padding: 0;
+        margin: 0;
+       
+        
+    }
+    #texto{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    #menu li a{
+        padding: 12px;
+        font-size: 0.8rem;
+    }
+} 
